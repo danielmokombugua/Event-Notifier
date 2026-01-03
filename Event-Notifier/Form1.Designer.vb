@@ -59,7 +59,7 @@ Partial Class Form1
         btnevtregistration.Cursor = Cursors.Hand
         btnevtregistration.FlatStyle = FlatStyle.Flat
         btnevtregistration.ForeColor = SystemColors.InactiveBorder
-        btnevtregistration.Location = New Point(-4, 188)
+        btnevtregistration.Location = New Point(-2, 179)
         btnevtregistration.Name = "btnevtregistration"
         btnevtregistration.Size = New Size(200, 50)
         btnevtregistration.TabIndex = 2
@@ -73,7 +73,7 @@ Partial Class Form1
         btnlogin.Cursor = Cursors.Hand
         btnlogin.FlatStyle = FlatStyle.Flat
         btnlogin.ForeColor = SystemColors.InactiveBorder
-        btnlogin.Location = New Point(-2, 122)
+        btnlogin.Location = New Point(-2, 123)
         btnlogin.Name = "btnlogin"
         btnlogin.Size = New Size(200, 50)
         btnlogin.TabIndex = 1
@@ -117,7 +117,7 @@ Partial Class Form1
         btnEvents.BackColor = Color.DarkSlateGray
         btnEvents.FlatStyle = FlatStyle.Flat
         btnEvents.ForeColor = SystemColors.InactiveBorder
-        btnEvents.Location = New Point(206, 106)
+        btnEvents.Location = New Point(206, 108)
         btnEvents.Name = "btnEvents"
         btnEvents.Size = New Size(200, 50)
         btnEvents.TabIndex = 2
@@ -148,7 +148,7 @@ Partial Class Form1
         btnacademics.BackColor = Color.DarkSlateGray
         btnacademics.FlatStyle = FlatStyle.Flat
         btnacademics.ForeColor = SystemColors.InactiveBorder
-        btnacademics.Location = New Point(206, 304)
+        btnacademics.Location = New Point(206, 279)
         btnacademics.Name = "btnacademics"
         btnacademics.Size = New Size(200, 50)
         btnacademics.TabIndex = 4
@@ -161,7 +161,7 @@ Partial Class Form1
         btnConcerts.BackColor = Color.DarkSlateGray
         btnConcerts.FlatStyle = FlatStyle.Flat
         btnConcerts.ForeColor = SystemColors.InactiveBorder
-        btnConcerts.Location = New Point(206, 236)
+        btnConcerts.Location = New Point(206, 223)
         btnConcerts.Name = "btnConcerts"
         btnConcerts.Size = New Size(200, 50)
         btnConcerts.TabIndex = 5
@@ -174,7 +174,7 @@ Partial Class Form1
         btnfestivals.BackColor = Color.DarkSlateGray
         btnfestivals.FlatStyle = FlatStyle.Flat
         btnfestivals.ForeColor = SystemColors.InactiveBorder
-        btnfestivals.Location = New Point(206, 171)
+        btnfestivals.Location = New Point(206, 164)
         btnfestivals.Name = "btnfestivals"
         btnfestivals.Size = New Size(200, 50)
         btnfestivals.TabIndex = 6
