@@ -1,7 +1,7 @@
 ﻿Imports Npgsql
 Imports System.Text
 
-Public Class userDashboard
+Public Class UserDasboard
     ' --- CONFIGURATION ---
     Private connString As String = "Host=localhost;Username=postgres;Password=yourpassword;Database=yourdb"
 
