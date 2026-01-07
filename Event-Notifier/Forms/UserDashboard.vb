@@ -1,7 +1,7 @@
 ﻿Imports Npgsql
 Imports System.Text
 
-Public Class UserDasboard
+Public Class UserDashboard
     ' --- CONFIGURATION ---
     Private connString As String = "Host=localhost;Username=postgres;Password=yourpassword;Database=yourdb"
 
@@ -126,11 +126,5 @@ Public Class UserDasboard
         Me.Hide()
     End Sub
 
-    Private Sub btnfestivals_Click(sender As Object, e As EventArgs) Handles btnfestivals.Click
 
-    End Sub
-
-    Private Sub btnEvents_Click(sender As Object, e As EventArgs) Handles btnEvents.Click
-
-    End Sub
 End Class

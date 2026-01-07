@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class UserDasboard
+Partial Class UserDashboard
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -182,7 +182,7 @@ Partial Class UserDasboard
         btnfestivals.TextAlign = ContentAlignment.MiddleLeft
         btnfestivals.UseVisualStyleBackColor = False
         ' 
-        ' Form1
+        ' UserDashboard
         ' 
         AutoScaleDimensions = New SizeF(10.0F, 25.0F)
         AutoScaleMode = AutoScaleMode.Font
@@ -195,7 +195,7 @@ Partial Class UserDasboard
         Controls.Add(btnEvents)
         Controls.Add(pnllogo)
         Controls.Add(pnlSidebar)
-        Name = "Form1"
+        Name = "UserDashboard"
         Text = "Form1"
         pnlSidebar.ResumeLayout(False)
         pnllogo.ResumeLayout(False)
