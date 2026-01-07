@@ -24,19 +24,20 @@ Public Class AdminLogin
             Dim db As New DatabaseHelper()
             Dim adminUser As Admin = db.ValidateAdmin(txtUsername.Text.Trim(), txtPassword.Text)
 
-            If adminUser IsNot Nothing Then
-                ' SUCCESS: Login worked
-                MessageBox.Show("Welcome, " & adminUser.FullName & "!", "Login Successful", MessageBoxButtons.OK, MessageBoxIcon.Information)
+If adminUser IsNot Nothing Then
+    ' SUCCESS: Login worked
+    MessageBox.Show("Welcome, " & adminUser.FullName & "!", "Login Successful", MessageBoxButtons.OK, MessageBoxIcon.Information)
+    
+    ' Clear the password field for security
+    txtPassword.Clear()
+    
+    ' OPEN DASHBOARD
+    Dim dashboard As New AdminDashboard()
+    dashboard.Show()
+    Me.Hide() ' Hides the login form
+Else
+    ' FAILURE code remains the same...
                 
-                ' Clear the password field for security
-                txtPassword.Clear()
-                
-                ' TODO: Open the Admin Dashboard (we will build this file next)
-                ' Dim dashboard As New AdminDashboard()
-                ' dashboard.Show()
-                ' Me.Hide()
-            Else
-                ' FAILURE: Wrong password or username [cite: 380]
                 loginAttempts += 1
                 lblError.Text = "Invalid username or password. Attempt " & loginAttempts & "/3"
                 lblError.ForeColor = Color.Red
