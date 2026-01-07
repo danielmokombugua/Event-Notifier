@@ -45,4 +45,13 @@ Public Class AdminDashboard
         ' eventForm.ShowDialog()
         MessageBox.Show("Event Creation Form coming soon!", "Placeholder") 
     End Sub
+' LOGIC: Handles "View All Events" menu click
+    Private Sub ViewAllEventsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllEventsToolStripMenuItem.Click
+        MessageBox.Show("Event List View coming in Module 4.", "Navigation")
+    End Sub
+
+    ' LOGIC: Handles "View Registrations" menu click
+    Private Sub ViewRegistrationsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewRegistrationsToolStripMenuItem.Click
+        MessageBox.Show("Registration Management coming in Module 5.", "Navigation")
+    End Sub
 End Class
