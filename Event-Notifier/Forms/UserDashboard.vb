@@ -1,4 +1,4 @@
-﻿Imports Npgsql
+Imports Npgsql
 Imports System.Text
 
 Public Class UserDashboard
@@ -105,7 +105,7 @@ Public Class UserDashboard
     Private Sub btnDasboard_Click(sender As Object, e As EventArgs) Handles btnlogin.Click
 
         ' 1. Create a new instance of the form you want to open
-        Dim nextPage As New Form2()
+        Dim nextPage As New AdminLogin()
 
         ' 2. Show the new form
         nextPage.Show()
@@ -117,7 +117,7 @@ Public Class UserDashboard
     Private Sub btnevtregistration_Click(sender As Object, e As EventArgs) Handles btnevtregistration.Click
 
         ' 1. Create a new instance of the form you want to open
-        Dim nextPage As New Form2()
+        Dim nextPage As New EventRegistrationForm()
 
         ' 2. Show the new form
         nextPage.Show()
@@ -127,5 +127,4 @@ Public Class UserDashboard
     End Sub
 
 
-    End Sub
 End Class
